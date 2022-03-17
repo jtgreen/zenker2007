@@ -4,7 +4,9 @@ Hemorrhagic shock model, code that reproduces major hemodynamic variables graphe
 Original and fantastic paper here: https://doi.org/10.1371/journal.pcbi.0030204
 
 To run, have appropriate includes installed, then:
+
 e = experiment()
+
 e.plot()
 
 All parameters from original paper. 
