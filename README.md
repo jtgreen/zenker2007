@@ -3,6 +3,8 @@ Hemorrhagic shock model, code that reproduces major hemodynamic variables graphe
 
 Original and fantastic paper here: https://doi.org/10.1371/journal.pcbi.0030204
 
+One parameter file necessary for loading initial parameters: opt_p0lv_kelv_v0lv_glower_control.mat
+
 To run, have appropriate includes installed, then:
 
 e = experiment()
