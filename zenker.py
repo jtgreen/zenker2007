@@ -45,7 +45,7 @@ class experiment:
         self.Rvalve = 2.5E-3 # % resistance "tricuspid" valve, from Ursino, 1998; % resistance "tricuspid" valve                                 
 
         # % use fitting results for diastolic compliance pars
-        fitResults = scipy.io.loadmat('zenker_quantdiag_code/opt_p0lv_kelv_v0lv_glower_control.mat')
+        fitResults = scipy.io.loadmat('opt_p0lv_kelv_v0lv_glower_control.mat')
         self.P0lv = fitResults['P0lv'][0][0]
         self.kelv = fitResults['kelv'][0][0] # % ventricular relaxation constant; % scaling constant for ventricular relaxation
         self.Vlved0 = fitResults['V0lv'][0][0] # % unstressed volume LV
